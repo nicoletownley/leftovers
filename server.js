@@ -4,6 +4,7 @@ let bodyParser = require("body-parser");
 let userRoutes = require('./controllers/api/user');
 let itemRoutes = require('./controllers/api/item');
 let cors = require('cors');
+var path = require('path');
 
 //set up port for listening on designated port or 3000
 let PORT = process.env.PORT||3001;
