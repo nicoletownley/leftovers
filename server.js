@@ -42,7 +42,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+	response.sendFile(path.join(__dirname, 'view', 'index.html'));
 });
 
 
