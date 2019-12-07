@@ -9,6 +9,7 @@ import Gallery from './components/Perfumes/Gallery';
 import NotFound from './components/NotFound/NotFound';
 import AddPerfume from './components/Perfumes/AddPerfume';
 import {BrowserRouter as Router, Switch, Route, Link,withRouter} from 'react-router-dom';
+let path = require('path');
 
 class App extends Component {
 
